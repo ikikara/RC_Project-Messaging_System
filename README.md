@@ -25,4 +25,4 @@ Consists in develop a program that implements a Messaging System using UNIX spec
 
 ## Authors:
 - [João Silva](https://github.com/ikikara)
-- [Mário Lemos](https://github.com/MrMarito)
+- [Pedro Martins](https://github.com/PedroMartinsUC)
