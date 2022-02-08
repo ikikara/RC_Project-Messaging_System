@@ -1,0 +1,4 @@
+piuxupa 193.136.212.131 5432 yes yes yes
+joao 193.136.212.195 ola no no no
+ikiru 193.136.212.130 1234 yes yes yes
+skito 193.136.212.194 6969 yes yes yes
