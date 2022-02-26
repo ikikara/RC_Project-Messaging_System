@@ -1,6 +1,8 @@
 # RC_Project-Messaging_System
 
 - [x] Finished
+- [ ] Try to fix Multicast
+- [ ] The file "Registos.txt" updates in real time
 
 ## Index
 - [Description](#description)
@@ -11,7 +13,8 @@
 
 ## Description
 This project was developed for Communication Networks subject @University of Coimbra, Informatics Engineering <br>
-Consists in develop a program that implements a Messaging System using UNIX specification and network elements like sockets and the protocols TCP and UDP.
+Consists in develop a program that implements a Messaging System using UNIX specification and network elements like sockets and the protocols TCP and UDP. This system implements some types of communication like Client-Server, Peer-to-Peer and (almost) Multicast.
+
 #### Main Languages:
 ![](https://img.shields.io/badge/-C-333333?style=flat&logo=C%2B%2B&logoColor=5459E2) 
 
@@ -23,7 +26,7 @@ Consists in develop a program that implements a Messaging System using UNIX spec
 You have one way to run this project:
 1. Using GNS3 and containers inside:
     * We will use some materials on GNS3, 5 containers (with Linux in this case), 3 routers and 3 switches
-    * Replicate the image above
+    * Replicate the image above and config some IP's and route's between networks (information about this on "1st_Goal_Report.pdf")
       ![image](https://i.imgur.com/f0r67j7.png)
     * Download the folder "src" and file Registos.txt that is on "resources" folder
     * On container called "Server" compile and run the file server.c
@@ -46,7 +49,7 @@ You have one way to run this project:
 - The containers used were provided with the image of Ubuntu VM that I used to do this project. Because this was provided by my teacher/course I can't make it available, so try to create a container on gns3 that use Linux (don't look at me I don't know how to do it xd)
 - The routers were Cisco 2600 and again the image for these routers were provided by my teacher/course, so again I can't make it available, try to find one :'))
 - File "Registos.txt" must be on same folder as "server.c" on "Server" container
-- For more information about how to use this project consult the Statement (to learn more about commands, signals available and structure of "Config.txt")
+- For more information about how to use this project consult the Statement and Reports
 
 ## Authors:
 - [João Silva](https://github.com/ikikara)
