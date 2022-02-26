@@ -38,10 +38,14 @@ You have one way to run this project:
       ```
     * On others containers compile and run the file client.c
       ```shellscript
-      [your-disk]:[name-path]> gcc server.c -o server
+      [your-disk]:[name-path]> gcc client.c -o client
       ```
       ```shellscript 
-      [your-disk]:[name-path]> ./server 80 160 Registos.txt
+      [your-disk]:[name-path]> ./client 192.136.212.251 80   (for a normal user)
+      ```
+      
+      ```shellscript 
+      [your-disk]:[name-path]> ./client 192.136.212.251 160  (for an admin user)
       ```
     * Finally use the program as you want!
 
