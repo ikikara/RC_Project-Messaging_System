@@ -56,5 +56,5 @@ You have one way to run this project:
 - For more information about how to use this project consult the Statement and Reports
 
 ## Authors:
-- [João Silva](https://github.com/ikikara)
+- [João Silva](https://github.com/joaosilva21)
 - [Pedro Martins](https://github.com/PedroMartinsUC)
